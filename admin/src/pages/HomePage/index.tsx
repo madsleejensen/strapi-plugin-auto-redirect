@@ -87,7 +87,7 @@ const Row = ({ item, onItemsCreated }) => {
     <>
       <Tr>
         <Td style={{ width: '20%',}}>
-          <Typography>{current.info.displayName} {isChanged}</Typography>
+          <Typography>{current.info.displayName}</Typography>
         </Td>
         <Td style={{ width: 225 }}>
           <SingleSelect onChange={handleChangeField} value={updated.field} placeholder="Choose field">

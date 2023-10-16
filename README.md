@@ -1,3 +1,3 @@
-# Strapi plugin strapi-auto-redirect
+# Strapi plugin strapi-plugin-auto-redirect
 
-A quick description of strapi-auto-redirect.
+A quick description of strapi-plugin-auto-redirect.

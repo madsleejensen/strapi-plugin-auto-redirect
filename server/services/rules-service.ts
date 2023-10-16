@@ -51,6 +51,16 @@ export default ({ strapi }: { strapi: Strapi }) => {
             });
           }
         });
+
+        fields.sort((a, b) => {
+          if (a.type === 'uid' && b.type !== 'uid') {
+            return -1;
+          } else if (a.type !== 'uid' && b.type === 'uid') {
+            return 1;
+          } else {
+            return a.name.localeCompare(b.name);
+          }
+        })
         
         if (fields.length > 0) {
           result.push({
