@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-auto-redirect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Monitor changes to your content types and automatically create redirects for you",
   "strapi": {
     "displayName": "Auto Redirect",
