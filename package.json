@@ -8,6 +8,13 @@
     "description": "Monitor changes to your content types and automatically create redirects for you",
     "kind": "plugin"
   },
+  "files": [
+    "admin",
+    "dist",
+    "strapi-admin.js",
+    "strapi-server.js",
+    "README.md"
+  ],
   "dependencies": {
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
@@ -42,6 +49,7 @@
     "npm": ">=6.0.0"
   },
   "scripts": {
+    "prepublish": "npm run build",
     "develop": "tsc -p tsconfig.server.json -w",
     "build": "tsc -p tsconfig.server.json"
   },
