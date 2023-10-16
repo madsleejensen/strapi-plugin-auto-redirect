@@ -4,7 +4,7 @@
   "description": "Monitor changes to your content types and automatically create redirects for you",
   "strapi": {
     "displayName": "Auto Redirect",
-    "name": "strapi-auto-redirect",
+    "name": "auto-redirect",
     "description": "Monitor changes to your content types and automatically create redirects for you",
     "kind": "plugin"
   },
